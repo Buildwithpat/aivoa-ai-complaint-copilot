@@ -1,0 +1,80 @@
+# =========================
+# Frontend
+# =========================
+client/node_modules/
+client/dist/
+client/.env
+client/.env.*
+!client/.env.example
+
+# Vite
+client/.vite/
+
+# Logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+# =========================
+# Backend
+# =========================
+server/venv/
+server/.venv/
+server/env/
+
+server/__pycache__/
+server/**/*.pyc
+server/**/*.pyo
+server/**/*.pyd
+
+server/.env
+server/.env.*
+!server/.env.example
+
+server/.pytest_cache/
+server/.mypy_cache/
+server/.ruff_cache/
+
+# =========================
+# Python
+# =========================
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# =========================
+# Build
+# =========================
+dist/
+build/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage
+# =========================
+.coverage
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+*.log
+
+# =========================
+# claude
+.claude/
+
+# =========================
+PROJECT_CONTEXT.md
